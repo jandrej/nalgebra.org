@@ -331,10 +331,10 @@ The `openblas` feature is enabled by default. The following examples shows how
 to enable `Accelerate` instead:
 
 ```yaml
-[dependencies.nalgebra_lapack]
+[dependencies.nalgebra-lapack]
 version = "*" # Replace the * by the latest version number.
 default-features = false
-features = [ "Accelerate" ]
+features = [ "accelerate" ]
 ```
 
 Note that enabling two such features simultaneously will lead to compilation
